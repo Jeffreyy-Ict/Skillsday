@@ -1,0 +1,78 @@
+/* Section Styles */
+section .section-content h3 {
+    color: black;
+    font-size: 80px; /* Adjust this value to make the font bigger */
+    text-align: center; /* Centers the h3 */
+    text-overflow: initial;
+    margin-top: 30px; /* Add top margin for spacing */
+}
+
+/* For responsive design, ensure the heading is still centered and legible */
+@media (max-width: 768px) {
+    section .section-content h3 {
+        font-size: 60px; /* Slightly smaller for tablet devices */
+    }
+}
+
+@media (max-width: 475px) {
+    section .section-content h3 {
+        font-size: 40px; /* Smaller font size for mobile devices */
+    }
+}
+
+/*------------- Footer section styling starts ------------*/
+footer
+{
+	padding: 8vw;
+	background-color: #101c32;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+footer .footer-col
+{
+	padding-bottom: 40px;
+}
+
+footer h3
+{
+	color: rgb(241, 240, 245);
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+
+.footer-col li a {
+	list-style: none;
+	color: #7b838a;
+	padding: 10px 0;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+.footer-col li a:hover {
+    color: rgb(241, 240, 245);
+}
+.footer-col form{
+    margin-top: 10px;
+}
+.footer-col input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px
+}
+.footer col button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #8e7979;
+    color: black;
+    cursor: pointer;
+}
+.footer-col button:hover{
+    background: #578192ec;
+}
+/*------------- Footer section styling ends ------------*/

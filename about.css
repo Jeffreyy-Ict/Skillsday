@@ -1,0 +1,167 @@
+/*------------------------------------------------------------------*/
+/*------------------- Tablet screen starts from here ---------------*/
+/*------------------------------------------------------------------*/
+@media screen and (max-width: 768px)
+{
+	#about-container
+	{
+		padding: 8vw 4vw 2vw 4vw;
+	}
+
+	#about-container .about-img
+	{
+		padding-right: 30px;
+	}
+
+	#trust .trust-img img
+	{
+		width: 50px;
+		height: auto;
+	}
+}
+
+
+/*------------------------------------------------------------------*/
+/*------------------- Smartphone screen starts from here ---------------*/
+/*------------------------------------------------------------------*/
+@media screen and (max-width: 475px)
+{
+	#about-container
+	{
+		flex-direction: column-reverse;
+	}
+
+	#about-container .about-img
+	{
+		width: 100%;
+		padding: 0;
+	}
+
+	#about-container .about-text
+	{
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	#trust .trust-img
+	{
+		margin-top: 40px;
+		flex-wrap: wrap;
+	}
+
+	#trust .trust-img img
+	{
+		width: 60px;
+		margin: 10px 15px;
+		height: auto;
+	}
+}
+
+/* Section Styles */
+section{
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 100px; 
+}
+section .section-content h1{
+    color: black;
+    font-size: 40px; /* 100px in rem */
+    text-align: center;
+	padding-top: 20px;
+}
+section .section-content h2 {
+    color: black;
+    font-size: 40px; /* 100px in rem */
+    text-align: center;
+}
+
+section .section-content p {
+    color: rgb(0, 0, 0);
+    font-size: 30px; /* 50px in rem */
+  text-align: center;
+}
+
+section img  {
+    height: 900px; 
+    width: 700px; 
+    max-width: 800px; 
+    display: block; 
+    margin-right: 10px; 
+    margin-left: 10px;
+   margin: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .menu-icon {
+        display: block; /* Show menu icon on mobile */
+    }
+
+    section .section-content h1 {
+        font-size: 4rem; /* Smaller font size for mobile */
+    }
+
+    section .section-content h2 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+}
+footer
+{
+	padding: 8vw;
+	background-color: #101c32;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+footer .footer-col
+{
+	padding-bottom: 40px;
+}
+
+footer h3
+{
+	color: rgb(241, 240, 245);
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+
+.footer-col li a {
+	list-style: none;
+	color: #7b838a;
+	padding: 10px 0;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+.footer-col li a:hover {
+    color: rgb(241, 240, 245);
+}
+.footer-col form{
+    margin-top: 10px;
+}
+.footer-col input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px
+}
+.footer col button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #8e7979;
+    color: black;
+    cursor: pointer;
+}
+.footer-col button:hover{
+    background: #578192ec;
+}
